@@ -26,6 +26,8 @@ In this paper, the authors proposed a end-to-end seq2seq model on language trans
 
 ![](/_posts/images/blog1_1.jpg)
 
+<img src="/_posts/images/blog1_1.jpg"/>
+
 As shown in the picture, the encoder reads the input sequence 'ABC' and map them to a fixed embedding feature. Then the decoder reveives the feature(hidden state) from encoder and outputs the 'WXYZ'.
 
 Here are the descriptions of the encoder and decoder in the paper: 
