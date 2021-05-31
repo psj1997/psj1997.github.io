@@ -24,7 +24,7 @@ This blog is a note of the paper `Sequence to Sequence Learning with Neural Netw
 
 In this paper, the authors proposed a end-to-end seq2seq model on language translation task. The basic idea of the model is the model contains a encoder and a decoder. The encoder and decoder uses RNN(LSTM, GRU). The encoder will map the input sequences to a fixed dimensionality vector and the decoder will decode the vector to get the target sequence. In this paper, the authors used a multi-layer LSTM to encode and decode the  sequences. The basic structure is in the following picture(from original paper). The advantage of LSTM used here is that it can process variable-length sequence and it can learn the long-term dependence information.
 
-![](images/blog1_1.jpg)
+![](https://github.com/psj1997/psj1997.github.io/edit/master/_posts/images/blog1_1.jpg)
 
 As shown in the picture, the encoder reads the input sequence 'ABC' and map them to a fixed embedding feature. Then the decoder reveives the feature(hidden state) from encoder and outputs the 'WXYZ'.
 
