@@ -31,9 +31,9 @@ As shown in the picture, the encoder reads the input sequence 'ABC' and map them
 Here are the descriptions of the encoder and decoder in the paper: 
 
 Given a sequence of inputs ($x_1, x_2, ..., x_T$),  the goal of the model is to estimate the conditional probability $p(y_1, y_2, ..., y_{T'}|x_1, ..., x_T)$.  $y_1, y_2, ..., y_{T'}$ is the corresponding output sequences. 
-$$
-p(y_1, y_2, ..., y_{T'}|x_1, ..., x_T) = \prod_{t=1}^{T'}p(y_t|v, y_1, ..., y_{t-1})
-$$
+
+$p(y_1, y_2, ..., y_{T'}|x_1, ..., x_T) = \prod_{t=1}^{T'}p(y_t|v, y_1, ..., y_{t-1})$
+
 $v$ is the last hidden state from the LSTM.
 
 Compared to previous work, the models here have some differences: (1) two different LSTMs for encoder and decoder; (2) deep LSTMs; (3) reverse the order of the words of the input sentences. The authors estimated that eversing could introduce many short term dependencies to the dataset. This way would lead to better predictions in the early parts of the target sequences.
