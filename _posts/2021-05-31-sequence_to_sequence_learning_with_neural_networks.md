@@ -38,7 +38,7 @@ the goal of the model is to estimate the conditional probability
 
 $$ p(y_1, y_2, ..., y_{T'}|x_1, ..., x_T). $$  
 
-$$ (y_1, y_2, ..., y_{T'}) $$ is the corresponding output sequences. 
+($y_1$, $y_2$, ..., $y_{T'}$) is the corresponding output sequences. 
 
 $$ p(y_1, y_2, ..., y_{T'}|x_1, ..., x_T) = \prod_{t=1}^{T'}p(y_t|v, y_1, ..., y_{t-1}) $$
 
