@@ -30,7 +30,7 @@ As shown in the picture, the encoder reads the input sequence 'ABC' and map them
 
 Here are the descriptions of the encoder and decoder in the paper: 
 
-Given a sequence of inputs ($x_1, x_2, ..., x_T$),  the goal of the model is to estimate the conditional probability $p(y_1, y_2, ..., y_{T'}|x_1, ..., x_T)$.  ($y_1, y_2, ..., y_{T'}$) is the corresponding output sequences. 
+Given a sequence of inputs ($x_$1, $x_2$, ..., $x_T$),  the goal of the model is to estimate the conditional probability $ p(y_1, y_2, ..., y_{T'}|x_1, ..., x_T) $.  ($ y_1, y_2, ..., y_{T'} $) is the corresponding output sequences. 
 
 $$ p(y_1, y_2, ..., y_{T'}|x_1, ..., x_T) = \prod_{t=1}^{T'}p(y_t|v, y_1, ..., y_{t-1}) $$
 
