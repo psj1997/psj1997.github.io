@@ -102,5 +102,15 @@ class Seq2Seq(nn.Module):
         return outputs
 ```
 
+References
+
+[1] Sutskever I, Vinyals O, Le Q V. Sequence to sequence learning with neural networks[J]. arXiv preprint arXiv:1409.3215, 2014.
+
+[2] https://github.com/bentrevett/pytorch-seq2seq
+
+[3] https://github.com/budzianowski/PyTorch-Beam-Search-Decoding
+
+[4] https://github.com/jojonki/BeamSearch
+
 
 
